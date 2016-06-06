@@ -1,0 +1,155 @@
+body {
+  font-family: 'Antic Slab', Lucida Console, Monaco5, monospace;
+  height: 100vh;
+  background-color: #52B3A5;
+}
+
+h1, h2, h5 {
+  text-align: center;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.area-width {
+	width: 400px;
+	margin: auto;
+}
+
+.search-bar {
+	width: 400px;
+	height: 30px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	text-align: left;
+  	font-size: 15px;
+  	color: #b56969;
+  	border-radius: 4px;
+}
+
+.options-list {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-style {
+  background: #b56969;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 10px;
+  margin: 3px;
+}
+
+button:last-of-type {
+  margin-left: auto;
+  margin-right: -3px;
+}
+
+.list-box {
+  width: 400px;
+  height: 400px;
+  overflow-y: scroll
+}
+
+
+.list-item {
+  position: relative;
+  background-color: #fff;
+  height: auto;
+  min-height: 50px;
+  margin-bottom: 4px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.list-item > p {
+  text-align: left;
+  color: #D3D3D3;
+}
+
+.list-title {
+  width: 95%;
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-body {
+  word-wrap: normal;
+}
+
+.toggle-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  outline: none;
+  border: none;
+  align-content: center;
+  justify-content: center;
+  box-shadow: none;
+  text-align: center;
+  background: none;
+  color: #5E5E5E;
+}
+
+label {
+	color: #fff;
+	padding: 10px;
+}
+
+.add-entry-box {
+	border-radius: 4px;
+	font-size: 20px;
+	text-align: center;
+
+	/*position: absolute;
+  top: 50%;
+  left: 50%;*/
+
+	margin: auto;
+	width: 300px;
+  height: 300px;
+  	
+  background-color: #8b8589;
+  /*z-index:1000 !important;*/
+}
+
+.entry-box-buttons {
+	margin: 10px;
+	display: flex;
+  justify-content: flex-start;
+}
+
+span {
+    display: block;
+    /*overflow: hidden;*/
+    padding:10px;
+}
+
+input{
+    width: 100%;
+    font-size: 20px;
+}
+
+textarea {
+	width: 100%;
+	height: 130px;
+    font-size: 15px;
+}
+
+.page-footer {
+	color: #fff;
+	/*background-color: #5E5E5E;*/
+	height: 50px;
+	width: 100%;
+  	position:relative;
+ 	bottom:0;
+ 	left:0;
+} 
